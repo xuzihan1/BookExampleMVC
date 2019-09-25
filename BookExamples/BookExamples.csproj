@@ -118,6 +118,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Chapter01\Chapter01AreaRegistration.cs" />
     <Compile Include="Areas\Chapter01\Controllers\ch01NavDemosController.cs" />
+    <Compile Include="Areas\Chapter02\Chapter02AreaRegistration.cs" />
+    <Compile Include="Areas\Chapter02\Controllers\ch02DemosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -146,6 +148,11 @@
     <Content Include="Areas\Chapter01\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Chapter01\Views\Shared\_ch01Layout.cshtml" />
     <Content Include="Areas\Chapter01\Views\ch01NavDemos\ch01Index.cshtml" />
+    <Content Include="Areas\Chapter02\Views\web.config" />
+    <Content Include="Areas\Chapter02\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Chapter02\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Chapter02\Views\ch02Demos\ch02Index.cshtml" />
+    <Content Include="Areas\Chapter02\Views\Shared\ch02Demos.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -180,6 +187,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Chapter01\Models\" />
+    <Folder Include="Areas\Chapter02\Models\" />
     <Folder Include="common\css\" />
     <Folder Include="common\js\" />
     <Folder Include="Models\" />
