@@ -74,3 +74,9 @@ D:\程序\c#\ASP.NET\BookExamples\BookExamples\obj\Debug\BookExamples.csproj.Cor
 D:\程序\c#\ASP.NET\BookExamples\BookExamples\obj\Debug\BookExamples.csproj.CopyComplete
 D:\程序\c#\ASP.NET\BookExamples\BookExamples\obj\Debug\BookExamples.dll
 D:\程序\c#\ASP.NET\BookExamples\BookExamples\obj\Debug\BookExamples.pdb
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\程序\c#\ASP.NET\BookExamples\BookExamples\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
