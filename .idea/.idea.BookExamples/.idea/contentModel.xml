@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lenovo\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lenovo\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_BookExamples.-1982692611.00" t="ExcludeRecursive" />
+    <e p="D:\程序\c#\ASP.NET\BookExamples" t="IncludeFlat">
+      <e p="BookExamples" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="Areas" t="Include">
+          <e p="Chapter01" t="Include">
+            <e p="Chapter01AreaRegistration.cs" t="Include" />
+            <e p="Controllers" t="Include">
+              <e p="ch01NavDemosController.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include" />
+            <e p="Views" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="ch01NavDemos" t="Include">
+                <e p="ch01Index.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_ch01Layout.cshtml" t="Include" />
+                <e p="ch01NavDemos.cshtml" t="Include" />
+              </e>
+              <e p="Web.config" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BookExamples.csproj" t="IncludeRecursive" />
+        <e p="common" t="Include">
+          <e p="css" t="Include" />
+          <e p="images" t="Include">
+            <e p="ch08" t="Include">
+              <e p="smile.gif" t="Include" />
+              <e p="xiaotu.jpg" t="Include" />
+            </e>
+            <e p="Home" t="Include">
+              <e p="1ee3febf53becf8ca9e84387c4578f1b41c354be.png" t="Include" />
+              <e p="ipad.jpg" t="Include" />
+              <e p="mainpage.jpg" t="Include" />
+              <e p="mobile.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include" />
+        </e>
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-3.3.1.intellisense.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.8.3.js" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="MainIndex.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_AreasLayout.cshtml" t="Include" />
+            <e p="_AreasPartialAjax.cshtml" t="Include" />
+            <e p="_AreasPartialRef.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_MainLayout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="BookExamples.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
