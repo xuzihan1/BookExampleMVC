@@ -51,5 +51,11 @@ namespace BookExamples.Areas.Chapter02.Controllers
             ViewBag.Message = s;
             return View();
         }
+
+        public ActionResult Ajax1()
+        {
+            string s = string.Format("{0:HH:mm:ss}", DateTime.Now);
+            return Content(s);
+        }
     }
 }
