@@ -1,0 +1,22 @@
+﻿@{
+    string s = Url.Action("Welcome", "ch02Demos");
+}
+<div class="btn-primary">Url帮助器的基本用法</div>
+<p>用法1：在脚本中利用Url帮助器得到Url地址</p>
+<p>Url.Action("Welcome", "ch02Demos")的结果为：<br />@s</p>
+<p>用法2：在HTML标记中利用Url帮助器得到Url地址</p>
+<table class="table-bordered" width="100%">
+    <tr>
+        <td><strong>基本用法</strong></td>
+        <td><strong>得到的URL字符串</strong></td>
+    </tr>
+    <tr>
+        <td>Url.Action("Welcome", "ch02Demos")</td>
+        <td>@s</td>
+    </tr>
+    <tr>
+        <td>Url.Action("Index", "ch02Demos")</td>
+        <td>@Url.Action("Index", "ch02Demos")</td>
+    </tr>
+</table>
+
