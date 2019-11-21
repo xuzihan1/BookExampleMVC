@@ -11,7 +11,16 @@ namespace BookExamples.Areas.Chapter03.Controllers
         // GET: Chapter03/ch03
         public ActionResult Index()
         {
-            return View();
+            if (Request.IsAjaxRequest())
+            {
+                int a = 1;
+                return PartialView();
+            }
+            else
+            {
+                int b = 2;
+                return View();
+            }
         }
     }
 }

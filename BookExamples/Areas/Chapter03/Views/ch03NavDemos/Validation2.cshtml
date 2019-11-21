@@ -1,0 +1,52 @@
+﻿@model BookExamples.Areas.Chapter03.Models.MyUserModel
+@{
+    var ajaxOptions = new AjaxOptions { UpdateTargetId = "bodyContent" };
+    var c1 = new { @class = "col-md-2 control-label" };
+    var c2 = "col-md-8";
+    var c3 = new { @class = "form-control" };
+    var c4 = new { @style = "color:red;" };
+}
+@using (Ajax.BeginForm(ajaxOptions))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.Label("UserId", c1)
+            <div class="@c2">
+                @Html.TextBox("UserId", null, c3)
+                @Html.ValidationMessage("UserId", null, c4)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("UserName", c1)
+            <div class="@c2">
+                @Html.TextBox("UserName", null, c3)
+                @Html.ValidationMessage("UserName", null, c4)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Age", c1)
+            <div class="@c2">
+                @Html.TextBox("Age", null, c3)
+                @Html.ValidationMessage("Age", null, c4)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("BirthDate", c1)
+            <div class="@c2">
+                @Html.TextBox("BirthDate", "", c3)
+                @Html.ValidationMessage("BirthDate", null, c4)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-1 col-md-offset-4">
+                <div class="btn btn-primary" id="btn1" type="submit">提交</div>
+            </div>
+        </div>
+    </div>
+}
+<pre>@ViewBag.Result</pre>
+<script>
+    $(document).ready(function () {
+        $("#BirthDate").datepicker();
+    });
+</script>

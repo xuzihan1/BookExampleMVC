@@ -1,0 +1,21 @@
+﻿@{
+    var ajaxOptions = (AjaxOptions)TempData["AjaxOptions"];
+    var a1 = "list-group-item";
+    var controllerMame = "ch03Demos";
+}
+<div id="demo" class="accordionDemo panel panel-primary">
+    <h3 class="panel-heading">基本用法</h3>
+    <div class="list-group">
+        @Ajax.ActionLink("例1：ActionResultDemo", "Index", controllerMame, new { id = "ActionResultDemo" }, ajaxOptions, new { @class = a1 })
+        @Ajax.ActionLink("例2：ViewDataViewBag", "ViewDataViewBag", controllerMame, null, ajaxOptions, new { @class = a1 })
+        @Ajax.ActionLink("例6：PartialRendPartial", "Index", controllerMame, new { id = "PartialRendPartial" }, ajaxOptions, new { @class = a1 })
+        @Ajax.ActionLink("例8：RendPageDemo", "Index", controllerMame, new { id = "RendPageDemo" }, ajaxOptions, new { @class = a1 })
+    </div>
+</div>
+<script>
+    var options = {
+        heightStyle: "content",
+        collapsible: true
+    };
+    $("#demo").accordion(options);
+</script>

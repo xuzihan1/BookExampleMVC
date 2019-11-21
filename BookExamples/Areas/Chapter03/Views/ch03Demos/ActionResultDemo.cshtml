@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "ActionResultDemo";
+    var ajaxOptions = (AjaxOptions)TempData["AjaxOptions"];
+}
+
+<h1>ActionResultDemo</h1>
+@Ajax.ActionLink("ContentResult示例1", "ContentResultDemo1", "ch03Demos", new AjaxOptions { UpdateTargetId = "div1" });
+<div id="div1"></div>
+@Ajax.ActionLink("ContentResult示例2", "ContentResultDemo2", "ch03Demos", new AjaxOptions());<br />
+@Ajax.ActionLink("JavaScriptResult示例", "JavaScriptResultDemo", "ch03Demos", new AjaxOptions());<br />
+@Ajax.ActionLink("JsonResult示例", "JsonResultDemo1", "ch03Demos", new AjaxOptions { UpdateTargetId = "div2", HttpMethod = "POST" });
+<div id="div2"></div>
+@Html.ActionLink("FileResult示例", "FileResultDemo1", "ch03Demos");<br />
+@Html.ActionLink("RedirectResult示例", "RedirectResultDemo", "ch03Demos");
+
+
